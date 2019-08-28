@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Guia 02</title>
+    </head>
+    <body>
+
+
+        <form action="ServletCRUD" method="POST">
+            <table>
+                <tr>
+                    <th>ID:</th>
+                    <td>                    
+                        <div>
+                            <input type="number" name="ID" placeholder="ID Consumible" step="1" min="1">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Nombre:</th>
+                    <td>
+                        <div>
+                            <input type="text" name="Nombre" placeholder="Nombre">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Apellido:</th>
+                    <td>
+                        <div>
+                            <input type="text" name="Apellido"  placeholder="Apellido" >
+                        </div>
+                    </td>
+                </tr>
+                
+                                <tr>
+                    <th>Activo: </th>
+                    <td>
+                        <div>
+                            <input type="checkbox" name="activo" id="activo" >
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>
+                        <div>
+                            <input type="submit" value="Crear" id="crear" name="crear">
+                        </div>
+                    </td>
+
+                    <td>
+                        <div>
+                            <input type="submit" value="Eliminar" id="eliminar" 
+                                   name="eliminar">
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <input type="submit" value="Consultar"
+                                   id="consultar" name="consultar">
+                        </div>
+
+                    </td>
+                </tr>
+            </table>
+
+        </form>
+
+
+        <br>
+
+    </body>
+</html>
+
+
